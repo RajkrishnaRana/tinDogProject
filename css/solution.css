@@ -1,0 +1,63 @@
+/* .gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+} */
+
+.gradient-background {
+  background: linear-gradient(234deg, #ddea19, #19eab4, #1668d6);
+  background-size: 600% 600%;
+
+  -webkit-animation: AnimationName 7s ease infinite;
+  -moz-animation: AnimationName 7s ease infinite;
+  -o-animation: AnimationName 7s ease infinite;
+  animation: AnimationName 7s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+  0%{background-position:0% 5%}
+  50%{background-position:100% 96%}
+  100%{background-position:0% 5%}
+}
+@-moz-keyframes AnimationName {
+  0%{background-position:0% 5%}
+  50%{background-position:100% 96%}
+  100%{background-position:0% 5%}
+}
+@-o-keyframes AnimationName {
+  0%{background-position:0% 5%}
+  50%{background-position:100% 96%}
+  100%{background-position:0% 5%}
+}
+@keyframes AnimationName {
+  0%{background-position:0% 5%}
+  50%{background-position:100% 96%}
+  100%{background-position:0% 5%}
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  border-radius: 50%;
+  height: 100px;
+}
+
+.justify-content-md-start {
+  padding-bottom: 20px;
+}
